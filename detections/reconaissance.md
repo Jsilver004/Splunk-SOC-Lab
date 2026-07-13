@@ -24,3 +24,65 @@ This detection identifies common reconnaissance commands using Sysmon Process Cr
 
 ---
 
+## Data Source
+- Sysmon Event ID 1 (Process Creation)
+
+---
+
+## Simulated Commands
+
+```cmd
+whoami
+hostname
+ipconfig
+arp -a
+netstat -ano
+nslookup google.com
+```
+
+---
+
+## Detection Logic
+
+The detection monitors Sysmon process creation events and identifies common discovery utilities executed on the endpoint.
+
+## SPL
+
+```spl
+
+```
+
+## Results
+
+The dashboard successfully detected each reconaissance command executed during testing.
+
+(SS)
+
+Observed commands include:
+
+- whoami
+- hostname
+- ipconfig
+- arp
+- netstat
+- nslookup
+
+---
+
+## Analyst Notes
+
+While these commands are commonly used by administrators, multiple discovery commands executed in rapid succession may indicate an attacker performing host reconnaissance. 
+
+Analysts should correlate these events with Powershell activities, network connections, authentication events, and subsequent process execution.
+
+---
+
+## Related Dashboard
+
+Security Overview
+
+---
+
+## Related Attack Simulation
+
+attack-simulations/reconaissance.md
