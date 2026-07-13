@@ -17,7 +17,9 @@ netstat -ano
 nslookup google.com
 ```
 
---- Expected Events
+--- 
+
+## Expected Events
 
 Sysmon Event ID = 1
 
