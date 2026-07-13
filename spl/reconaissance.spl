@@ -1,1 +1,20 @@
+source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+EventCode=1
 
+| eval Tool=case(
+    like(CommandLine,"%ipconfig%"),"ipconfig",
+    like(CommandLine,"%arp%"),"arp",
+    like(CommandLine,"%route%"),"route",
+    like(CommandLine,"%netstat%"),"netstat",
+    like(CommandLine,"%ping%"),"ping",
+    like(CommandLine,"%tracert%"),"tracert",
+    like(CommandLine,"%nslookup%"),"nslookup",
+    like(CommandLine,"%hostname%"),"hostname",
+    like(CommandLine,"%whoami%"),"whoami"
+)
+
+| where isnotnull(Tool)
+
+| stats count by Tool
+
+| sort -count
