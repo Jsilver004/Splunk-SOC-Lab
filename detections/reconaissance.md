@@ -39,7 +39,7 @@ arp -a
 netstat -ano
 nslookup google.com
 
-![VLAN Creatio](screenshots/Splunk/Suspicious%20Entries/SusBoard1.png)
+![VLAN Creatio](screenshots/Splunk/NetAlert.png)
 ![VLAN Creatio](../dashboards/Security_Overview.png)
 
 
