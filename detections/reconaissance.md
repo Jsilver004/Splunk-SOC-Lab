@@ -45,8 +45,6 @@ nslookup google.com
 
 ![VLAN Creatio](../screenshots/Splunk/Dashboards/Suspicious%20Entries/SusBoard1.png)
 
-![VLAN Creatio](../screenshots/Splunk/.png)
-
 
 ---
 
@@ -64,7 +62,7 @@ The detection monitors Sysmon process creation events and identifies common disc
 
 The dashboard successfully detected each reconaissance command executed during testing.
 
-![VLAN Creatio](../screenshots/Splunk/NetAlert.png)
+![VLAN Creatio](../screenshots/Splunk/Dashboards/Suspicious%20Entries/SusBoard2.png)
 
 Observed commands include:
 
