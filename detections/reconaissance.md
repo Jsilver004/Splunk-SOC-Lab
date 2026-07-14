@@ -43,7 +43,7 @@ nslookup google.com
 
 ```
 
-![VLAN Creatio](../screenshots/Splunk/Suspicious%20Entries/SusBoard1.png)
+![VLAN Creatio](../screenshots/Splunk/Dashboards/Suspicious%20Entries/SusBoard1.png)
 
 ![VLAN Creatio](../screenshots/Splunk/.png)
 
