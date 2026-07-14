@@ -38,6 +38,11 @@ ipconfig
 arp -a
 netstat -ano
 nslookup google.com
+
+![VLAN Creatio](screenshots/Splunk/Suspicious Entries/SusBoard1.png)
+
+
+
 ```
 
 ---
