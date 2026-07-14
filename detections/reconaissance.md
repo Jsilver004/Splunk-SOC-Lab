@@ -47,6 +47,11 @@ nslookup google.com
 
 ```
 
+![VLAN Creatio](screenshots/Splunk/NetAlert.png)
+
+![VLAN Creatio](../screenshots/Splunk/NetAlert.png)
+
+
 ---
 
 ## Detection Logic
