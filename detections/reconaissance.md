@@ -40,7 +40,7 @@ netstat -ano
 nslookup google.com
 
 ![VLAN Creatio](screenshots/Splunk/Suspicious%20Entries/SusBoard1.png)
-![VLAN Creatio](./dashboards/Security_Overview.png)
+![VLAN Creatio](../dashboards/Security_Overview.png)
 
 
 
