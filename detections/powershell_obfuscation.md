@@ -35,7 +35,7 @@ A Based64 'whoami' command was generated and executed.
 $encoded=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytest("whoami")) powershell.exe -EncodedCommand $encoded
 ```
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/EncodedPowershellDetect.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/EncodedPowershell.png)
 
 ---
 
