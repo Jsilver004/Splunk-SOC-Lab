@@ -35,6 +35,8 @@ A Based64 'whoami' command was generated and executed.
 $encoded=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytest("whoami")) powershell.exe -EncodedCommand $encoded
 ```
 
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/EncodedPowershellDetect.png)
+
 ---
 
 ## Detection Logic
@@ -59,7 +61,7 @@ CommandLine="*-EncodedCommand*"
 
 The econded PowerShell execution was successfully detected.
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/EncodedPowershell.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/EncodedPowershellDetect2.png)
 
 Windows Defender also identified the activity as suspicious during testing.
 
