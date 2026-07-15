@@ -59,6 +59,8 @@ CommandLine="*-EncodedCommand*"
 
 The econded PowerShell execution was successfully detected.
 
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/EncodedPowerShell.png)
+
 Windows Defender also identified the activity as suspicious during testing.
 
 ## Analyst Notes
