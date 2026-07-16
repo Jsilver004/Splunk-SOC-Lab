@@ -35,7 +35,7 @@ Executed PowerShell and generated outbound HTTPs traffic.
 
 Then checked Splunk for detection.
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%Monitoring/PowershellSearch.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellSearch.png)
 
 
 ---
@@ -51,7 +51,7 @@ Image="*powershell.exe"
 ---
 ## Results
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%Monitoring/PowershellTest2.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellTest2.png)
 
 Splunk Identified:
 
