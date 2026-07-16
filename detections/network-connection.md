@@ -31,7 +31,7 @@ Sysmon Event ID 3
 
 Executed PowerShell and generated outbound HTTPs traffic.
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%Monitoring/PowershellTest.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellTest.png)
 
 Then checked Splunk for detection.
 
