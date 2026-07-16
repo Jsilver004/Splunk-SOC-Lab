@@ -35,19 +35,27 @@ Executed PowerShell and generated outbound HTTPs traffic.
 
 ## SPL
 
-```spl
-
+```spl source=*WinEventLog:Microsoft-Windows-Sysmon/Operational"
+EventCode=3
+Image="*powershell.exe"
+|table _time Image DestinationIp DestinationPort CommandLine
 ```
    
 ---
 ## Results
 
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%Monitoring/PowershellTest2.png)
+
 Splunk Identified:
 
-- Process
+- Process Name
+- Destination Port/IP
+- Connection Timestamp
+
+## Analyst Notes
+
+Correlate with Process Creation events to determine what initiated the connection.
 
 
 
-
-![VLAN Creatio](../screenshots/Splunk/Dashboards/Suspicious%20Entries/SusBoard1.png)
 
