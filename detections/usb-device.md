@@ -36,7 +36,8 @@ Then check Splunk to see if this action was detected.
 
 ## SPL
 
-```spl index=*
+```spl
+index=*
 USB
 ```
 
