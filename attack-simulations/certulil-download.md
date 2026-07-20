@@ -10,7 +10,7 @@ Execute the Windows Certutil utility to validate LOLBin detection
 ```cmd
 certutil -urlcache -split -f https://example.com example html
 ```
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/LOLbin/LOLbinAttack.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/LOLbin/LOLbinAttack.png)
 
 
 ## Expected Telemetry
