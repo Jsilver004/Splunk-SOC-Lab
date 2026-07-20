@@ -24,9 +24,12 @@ On the command line.
 
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Timeline/Commands.png)
 
+We will then search for occurrances of these commands and sort them in time order.
+
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Timeline/TTSPL.png)
 
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Timeline/Threat%20Timeline.png)
 
+Using this, a threat hunter can piece together a threat actor's plan of attack, and figure out how to mitigate or put an end to it.
 
 
