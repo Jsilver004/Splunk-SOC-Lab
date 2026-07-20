@@ -1,3 +1,4 @@
-$encoded=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes("whoami"))
+```$encoded=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes("whoami"))
 powershell.exe -EncodedCommand
 $encoded
+```
