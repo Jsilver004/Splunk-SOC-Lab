@@ -22,11 +22,11 @@ nslookup google.com
 
 On the command line.
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Timeline/Commands.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Timeline/Commands.png)
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Timeline/TTSPL.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Timeline/TTSPL.png)
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Timeline/Threat%20Timeline.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Timeline/Threat%20Timeline.png)
 
 
 
