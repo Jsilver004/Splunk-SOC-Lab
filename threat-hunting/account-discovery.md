@@ -31,6 +31,7 @@ Commonly ran Account Discovery commands are utilized in PowerShell,
 
 
 
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellTest.png)
 
 
 
