@@ -21,7 +21,7 @@ Command-line telemetry can reveal reconaissance, encoded PowerShell, LOLBins, an
 
 ---
 
-## Experiment
+## Analysis
 
 Commonly ran Account Discovery commands are utilized in PowerShell,
 
@@ -44,9 +44,5 @@ For an automated response, an alert can be set to detect these commands being en
 
 - Sysmon Event ID 1 (Process Creation)
 
-
-
-
 ---
 
-## Analysis
