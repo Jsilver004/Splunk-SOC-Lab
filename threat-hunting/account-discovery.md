@@ -34,6 +34,11 @@ Then, acting as a threat hunter, we consult Splunk for logs regarding these comm
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Acccount%20Discovery/ADSplunkCaptured.png)
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Acccount%20Discovery/ADSplunkCaptured2.png)
 
+With this data, we can reason if an attack is being conducted and which user and machine may be responsible for it.
+
+For an automated response, an alert can be set to detect these commands being entered in bulk in a short amount of time.
+
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Acccount%20Discovery/ADAlert.png)
 
 ## Data Source
 
