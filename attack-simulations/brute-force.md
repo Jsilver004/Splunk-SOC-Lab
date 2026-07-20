@@ -20,7 +20,9 @@ Generate repeate failed logon attempts to validate brute-force detection.
 - Windows Security Event 4625 (Failed Logon)
 - Windows Security Event 4740 (Account Lockout *if configured)
 
-![VLAN Creatio](../screenshots/Splunk/Logins/AccLockBrute.png)
+![VLAN Creatio](../screenshots/Splunk/Logins/FailedLogins.png)
+![VLAN Creatio](../screenshots/Splunk/Logins/FailedLoginsDet.png)
+
 
 
 ## Related Detection
