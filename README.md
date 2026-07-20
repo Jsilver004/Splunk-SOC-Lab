@@ -34,14 +34,66 @@ The repository follows the progression of a real SOC implementation, beginning w
 
 ## Data Sources
 
+The lab collects endpoint telemetry from a Windows system using:
+
+- Sysmon (Event IDs 1 and 3 for Process Creation and Network Connection respectively)
+- Windows Security Logs
+- Windows System Logs
+- Powershell
+
 ## Detection Rules
+
+Detection content is organized within the 'detection/' directory and includes:
+
+- Process Creation
+- Reconaissance Activity
+- Encoded PowerShell
+- Certutil (LOLBin)
+- Brute Force Authentication
+- Network Connections
+- USB Device Detection
+- Privileged Logon
 
 ## Attack Simulation
 
+Attack simulations were performed to generate realistic endpoint activity and validate detection logic.
+Simulated behaviors include:
+
+- Windows reconnaissance commands
+- Encoded PowerShell executation
+- Certutil execution
+- Repeate failed logon attempts
+
 ## Dashboards
 
-## Incident Reports
+Splunk dashboards provide visualization for:
+- Process Creation
+- Failed Logons
+- Network Connections
+- PowerShell Activity
+- Threat Timeline
+- Reconaissance Commands
 
 ## Repository Structure
 
+splunk-threat-hunting-lab/
+|---attack-simulations/
+|---configs/
+|---dashboards/
+|---detections/
+|---docs/
+|---incidents_reports/
+|---screenshots/
+|---spl/
+|---threat-hunting/
+|---README.md
+
 ## Future Improvements
+
+Future enhancements may include:
+
+- Additioal Sysmon detections
+- Sigma rule integration
+- MITRE ATT&CK coverage expansion
+- Multi-endpoint log collection
+- Detection tuning to reduce false positives
