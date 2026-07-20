@@ -17,11 +17,11 @@ The repository follows the progression of a real SOC implementation, beginning w
 - Build SOC dashboards
 - Document incident response procedures
 
-## Environment
-
 ## Lab Architecture
 
-## Technologies
+This lab consists of a Windows 11 endpoint configured with Sysmon and the Splunk Universal Forwarder. Endpoint telemetry is forwaded to Splunk Cloud ,where searches, detections, dashboards and threat hunting activities are performed.
+
+## Environment/Technologies
 - Splunk Cloud
 - Windows 11
 - Splunk Universal Forwarder
@@ -29,7 +29,6 @@ The repository follows the progression of a real SOC implementation, beginning w
 - SPL (Search Processing Language
 - Sysmon
 - Kali Linux
-- Active Directory
 - Powershell
 
 ## Data Sources
