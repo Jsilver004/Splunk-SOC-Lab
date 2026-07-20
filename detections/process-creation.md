@@ -36,9 +36,21 @@ notepad
 taskmgr
 ```
 
+
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellOpen.png)
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/TaskManageOpen.png)
+
+
+
+
 ## Detection Logic
 
 Monitor Sysmon Event ID 1 for newly created processes
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/NotepadCreate.png)
+
 
 ## SPL
 ```spl
@@ -50,6 +62,16 @@ EventCode=1
 ## Results
 
 Splunk successfully detected each process creation event, including the executing user, parent process, and command line.
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/NotepadCreate2.png)
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellDetected.png)
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellDetected2.png)
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/TaskManageDetect.png)
+
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/TaskManageDetect2.png)
 
 ---
 
