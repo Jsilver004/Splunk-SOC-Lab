@@ -63,11 +63,17 @@ EventCode=1
 
 Splunk successfully detected each process creation event, including the executing user, parent process, and command line.
 
+### Notepad:
+
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/NotepadCreate2.png)
+
+### Powershell:
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowershellDetect.png)
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowershellDetect2.png)
+
+### Task Manager
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/TaskManageDetect.png)
 
