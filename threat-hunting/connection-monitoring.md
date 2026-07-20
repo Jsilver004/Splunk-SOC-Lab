@@ -17,6 +17,15 @@ Attacker commonly connect to services not regularly used by end users (Like Powe
 
 Before the attack, we can see no current commandine activity.
 
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellSearch.png)
+
+We then simulate an attacker and utilize powershell.
+
 ![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellTest.png)
+
+After checking again, we can see a commandline was accessed now.
+
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Connection%20Monitoring/PowershellTest2.png)
+
 
 
