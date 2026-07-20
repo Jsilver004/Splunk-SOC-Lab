@@ -76,15 +76,25 @@ Splunk dashboards provide visualization for:
 ## Repository Structure
 
 splunk-threat-hunting-lab/
+
 |---attack-simulations/
+
 |---configs/
+
 |---dashboards/
+
 |---detections/
+
 |---docs/
+
 |---incidents_reports/
+
 |---screenshots/
+
 |---spl/
+
 |---threat-hunting/
+
 |---README.md
 
 ## Future Improvements
