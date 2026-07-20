@@ -12,5 +12,11 @@ Then checking the dashboard for detection.
 
 ![VLAN Creatio](../screenshots/Splunk/Dashboards/Network%20Connections/NetBoard2.png)
 
+Then an alert was set in case many of these enumeration commands were used in close proximity, which could signal an attack.
+
+![VLAN Creatio](../screenshots/Splunk/Dashboards/Network%20Connections/NetAlert.png)
+
+![VLAN Creatio](../screenshots/Splunk/Dashboards/Network%20Connections/NetAlert2.png)
+
 
 
