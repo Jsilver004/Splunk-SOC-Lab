@@ -23,7 +23,7 @@ nslookup google.com
 
 Sysmon Event ID = 1
 
-```
+
 ## Detection
 
 detections.reconaissance.md
