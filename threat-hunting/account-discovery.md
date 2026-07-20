@@ -2,7 +2,7 @@
 
 ## Objective
 
-Analyze commandline activity to identify suspicious/malicious command execution.
+Analyze commandline activity to identify suspicious/malicious command execution commonly used in attack discovery.
 
 ---
 
@@ -20,6 +20,20 @@ Command-line telemetry can reveal reconaissance, encoded PowerShell, LOLBins, an
 - Correlate commands with parent processes
 
 ---
+
+## Experiment
+
+Commonly ran Account Discovery commands are utilized in PowerShell,
+
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/ADPage.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/ADCommandsEntered.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/ADCommandsEntered.png)
+
+
+
+
+
+
 
 ## Data Source
 
