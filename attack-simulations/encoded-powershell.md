@@ -1,11 +1,5 @@
 ## Encoded Powershell
 
-encoded-powershell.md
-
-```markdown
-#Encoded PowerShell Simulation
-
-
 ## Objective
 
 Execute an encoded Powershell command to test detection of obfuscated script execution.
@@ -18,3 +12,16 @@ Execute an encoded Powershell command to test detection of obfuscated script exe
 $encoded=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes("whoami"))
 powershell.exe -EncodedCommand
 $encoded
+
+```
+
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%Detection/EncodedPowerShell.png)
+
+## Expected Telemetry
+- Sysmon Event ID 1 (Process Creation)
+
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%Detection/EncodedPowerShellDetect.png)
+
+## Related Detection
+
+detections/powershell_Oofuscateion.md
