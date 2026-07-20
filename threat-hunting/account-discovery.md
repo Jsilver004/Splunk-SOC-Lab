@@ -25,9 +25,9 @@ Command-line telemetry can reveal reconaissance, encoded PowerShell, LOLBins, an
 
 Commonly ran Account Discovery commands are utilized in PowerShell,
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Account%20Discovery/ADPage.png)
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Account%20Discovery/ADCommandsEntered.png)
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Account%20Discovery/ADCommandsEntered.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Acccount%20Discovery/ADPage.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Acccount%20Discovery/ADCommandsEntered.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Acccount%20Discovery/ADCommandsEntered.png)
 
 
 
