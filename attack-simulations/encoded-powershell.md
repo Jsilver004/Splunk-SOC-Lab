@@ -15,7 +15,7 @@ $encoded
 
 ```
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%Detection/EncodedPowerShell.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/EncodedPowerShell.png)
 
 ## Expected Telemetry
 - Sysmon Event ID 1 (Process Creation)
