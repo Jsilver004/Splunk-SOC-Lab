@@ -17,7 +17,7 @@ certutil -urlcache -split -f https://example.com example html
 
 - Sysmon Event ID 1 (Process Creation)
 
-![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/Threat%20Detection/LOLbin/LOLbinAttackCaught.png)
+![VLAN Creatio](../screenshots/Splunk/Threat%20Hunting/LOLbin/LOLbinAttackCaught.png)
 
 ---
 
