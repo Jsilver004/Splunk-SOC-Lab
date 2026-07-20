@@ -65,9 +65,9 @@ Splunk successfully detected each process creation event, including the executin
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/NotepadCreate2.png)
 
-![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellDetected.png)
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellDetect.png)
 
-![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellDetected2.png)
+![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowerShellDetect2.png)
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/TaskManageDetect.png)
 
