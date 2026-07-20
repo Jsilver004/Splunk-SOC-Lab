@@ -1,3 +1,4 @@
+```
 source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
 EventCode=1
 
@@ -18,3 +19,4 @@ EventCode=1
 | stats count by Tool
 
 | sort -count
+```
