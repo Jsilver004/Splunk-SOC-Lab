@@ -1,0 +1,3 @@
+~~~
+EventCode-4625 | stats count by Account_Name | where count >= 5
+~~~
