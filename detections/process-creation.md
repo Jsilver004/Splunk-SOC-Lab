@@ -35,3 +35,26 @@ cmd
 notepad
 taskmgr
 ```
+
+## Detection Logic
+
+Monitor Sysmon Event ID 1 for newly created processes
+
+## SPL
+```spl
+source:"WinEventLog:Microsoft-Windows-Sysmon/Operational"
+EventCode=1
+| table _time User Image ParentImage CommandLine
+```
+---
+## Results
+
+Splunk successfully detected each process creation event, including the executing user, parent process, and command line.
+
+---
+
+## Analyst Notes
+
+Process creation telemetry is the foundation for detecting reconaissance, PowerShell activity, LOLBins, and other endpoint behaviors.
+
+---
