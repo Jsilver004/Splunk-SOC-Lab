@@ -73,7 +73,8 @@ Splunk successfully detected each process creation event, including the executin
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/PowershellDetect2.png)
 
-### Task Manager
+### Task Manager:
+---
 
 ![VLAN Creatio](../screenshots/Splunk/Process%20Creation/TaskManageDetect.png)
 
